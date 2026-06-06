@@ -388,17 +388,13 @@
 
   <!-- COUNTRY DETAIL SCREEN -->
   <div id="screen-detail">
-    <button class="detail-back-btn" id="backBtn">
-      <i class="bi bi-arrow-left"></i>
-      <span>Back to Destinations</span>
-    </button>
-
     <section class="detail-hero">
-      <div class="hero-orbs">
-        <div class="orb orb-1"></div>
-        <div class="orb orb-2"></div>
-      </div>
-      <div class="detail-hero-bg-flag" id="detailBgFlag"></div>
+      <!-- Dynamic split-bg layers injected by JS here -->
+      <div class="detail-hero-bg-flag" id="detailBgFlag" style="display:none;"></div>
+      <button class="detail-back-btn" id="backBtn">
+        <i class="bi bi-arrow-left"></i>
+        <span>Back to Destinations</span>
+      </button>
       <div class="detail-hero-content">
         <div class="detail-flag-big" id="detailFlagBig"></div>
         <div class="detail-title-block">
@@ -413,7 +409,7 @@
       <div class="detail-tabs">
         <button class="dtab active" data-dtab="overview">Overview</button>
         <button class="dtab" data-dtab="docs">Documents</button>
-        <button class="dtab" data-dtab="process">Process</button>
+        <!-- <button class="dtab" data-dtab="process">Process</button> -->
       </div>
 
       <div class="detail-tab-pane active" id="dtab-overview">
