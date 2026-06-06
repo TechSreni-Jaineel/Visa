@@ -1057,7 +1057,7 @@ document.querySelectorAll('.footer-visa-link').forEach(link => {
 
   function setup() {
     const step = getStep();
-    scene.style.height = (N * step + step * 0.5) + 'px';
+    scene.style.height = (N * step) + 'px';
     cards.forEach((card, i) => {
       card.style.position = 'sticky';
       card.style.top = (NAV + i * PEEK) + 'px';
